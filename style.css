@@ -1,0 +1,22 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+    background-color: darkseagreen;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width:600px;
+    height: 600px;
+    display:grid;
+    z-index: 100;
+    border:solid black 1px;
+    background-color: white;
+}
